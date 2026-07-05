@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapata Chulha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <!--=========================================
+                HEADER
+==========================================-->
+
+<header>
+
+    <nav>
+
+        <!--========== Logo ==========-->
+
+        <div class="logo">
+
+            <img src="./assets/logo.jpg" alt="Chatpata Chulha Logo">
+
+            <div class="logo-text">
+
+                <h2>Chatpata Chulha</h2>
+
+                <p>Taste that feels like home</p>
+
+            </div>
+
+        </div>
+
+
+        <!--========== Navigation ==========-->
+
+        <ul class="navbar">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#menu">Menu</a></li>
+
+            <li><a href="#services">Services</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+            <li><a href="#location">Location</a></li>
+
+        </ul>
+
+
+        <!--========== Order Button ==========-->
+
+        <a href="#" class="order-btn">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            Order Now
+
+        </a>
+
+    </nav>
+
+</header>
+
+<!--=========================================
+                HOME SECTION
+==========================================-->
+
+<section class="home" id="home">
+
+    <!--================ LEFT SIDE ================-->
+
+    <div class="home-left">
+
+        <span class="home-tag">
+            🍴 Fresh • Healthy • Homemade
+        </span>
+
+        <h1>
+
+            Delicious Food <br>
+
+            <span>Made With Love</span>
+
+        </h1>
+
+        <p>
+
+            Fresh ingredients, authentic recipes and hygiene you can trust
+
+        </p>
+
+        <!--================ FEATURES ================-->
+
+        <div class="home-features">
+
+            <div class="feature">
+
+                <i class="fa-solid fa-leaf"></i>
+
+                <span>Fresh Ingredients</span>
+
+            </div>
+
+            <div class="feature">
+
+                <i class="fa-solid fa-bowl-food"></i>
+
+                <span>Authentic Homemade Taste</span>
+
+            </div>
+
+            <div class="feature">
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <span>Fast Delivery</span>
+
+            </div>
+
+        </div>
+
+        <!--================ BUTTONS ================-->
+
+        <div class="home-btn">
+
+            <a href="#menu" class="order-btn">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                Order Now
+
+            </a>
+
+            <a href="#combo" class="combo-btn">
+
+                View Combos
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!--================ RIGHT SIDE ================-->
+
+    <div class="home-right">
+
+        <div class="home-image">
+
+            <img src="./assets/food.jpg" alt="Delicious Food">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!--==========================
+    WHATSAPP FLOAT BUTTON
+===========================-->
+
+<a href="https://wa.me/919499249020?text=Hello%20Chatpata%20Chulha,%20I%20want%20to%20place%20an%20order."
+   class="whatsapp-btn"
+   target="_blank">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+    <span>Chat with Us</span>
+
+</a>
+
+
+
+
+
+
+<!--=========================================
+            MENU SECTION
+==========================================-->
+
+<section class="menu-section" id="menu">
+
+    <div class="menu-heading">
+
+        <span>🍽 Explore Our Menu</span>
+
+        <h2>Choose Your Favourite Cuisine</h2>
+
+        <p>
+            Freshly prepared meals with authentic taste and premium ingredients.
+        </p>
+
+    </div>
+
+    <!--================ CATEGORY =================-->
+
+    <div class="menu-category">
+
+        <div class="category active" onclick="showMenu('indian',this)">
+
+            <i class="fa-solid fa-bowl-food"></i>
+
+            <h3>Indian</h3>
+
+            <p>Roti • Paratha • Sabzi</p>
+
+        </div>
+
+        <div class="category" onclick="showMenu('chinese',this)">
+
+            <i class="fa-solid fa-bowl-rice"></i>
+
+            <h3>Chinese</h3>
+
+            <p>Noodles • Momos</p>
+
+        </div>
+
+        <div class="category" onclick="showMenu('nonveg',this)">
+
+            <i class="fa-solid fa-drumstick-bite"></i>
+
+            <h3>Non Veg</h3>
+
+            <p>Chicken • Biryani</p>
+
+        </div>
+
+        <div class="category" onclick="showMenu('combo',this)">
+
+            <i class="fa-solid fa-box-open"></i>
+
+            <h3>Combo</h3>
+
+            <p>Meal Deals</p>
+
+        </div>
+
+        <div class="category" onclick="showMenu('thali',this)">
+
+            <i class="fa-solid fa-utensils"></i>
+
+            <h3>Thali</h3>
+
+            <p>Special Meals</p>
+
+        </div>
+
+        <div class="category" onclick="showMenu('soup',this)">
+
+            <i class="fa-solid fa-mug-hot"></i>
+
+            <h3>Soup</h3>
+
+            <p>Hot & Fresh</p>
+
+        </div>
+
+        <div class="category" onclick="showMenu('gym',this)">
+
+            <i class="fa-solid fa-dumbbell"></i>
+
+            <h3>Gym Diet</h3>
+
+            <p>Healthy Meals</p>
+
+        </div>
+
+    </div>
+
+
+
+    <!--=====================================
+            INDIAN MENU
+    ======================================-->
+
+    <div class="menu-content active-menu" id="indian">
+
+        <div class="left-menu">
+
+            <!--=========================
+            BOX 1 : ROTI & NAAN
+        ==========================-->
+
+        <div class="menu-box">
+
+            <h3>🫓 Roti & Naan</h3>
+
+            <ul>
+
+                <li><span>Plain Tawa Roti</span><strong>₹10</strong></li>
+
+                <li><span>Butter Tawa Roti</span><strong>₹15</strong></li>
+
+                <li><span>Tandoori Roti</span><strong>₹15</strong></li>
+
+                <li><span>Butter Tandoori Roti</span><strong>₹17</strong></li>
+
+                <li><span>Plain Naan</span><strong>₹50</strong></li>
+
+                <li><span>Butter Naan</span><strong>₹70</strong></li>
+
+                <li><span>Stuff Naan</span><strong>₹90</strong></li>
+
+                <li><span>Tawa Kulcha</span><strong>₹89</strong></li>
+
+            </ul>
+
+        </div>
+
+
+        <!--=========================
+            BOX 2 : PARATHA
+        ==========================-->
+
+        <div class="menu-box">
+
+            <h3>🥙 Paratha Special</h3>
+
+            <ul>
+
+                <li><span>Lachha Paratha</span><strong>₹70</strong></li>
+
+                <li><span>Aloo Paratha</span><strong>₹70</strong></li>
+
+                <li><span>Onion Paratha</span><strong>₹70</strong></li>
+
+                <li><span>Gobhi Paratha</span><strong>₹90</strong></li>
+
+                <li><span>Mix Paratha</span><strong>₹90</strong></li>
+
+                <li><span>Paneer Paratha</span><strong>₹90</strong></li>
+
+                <li><span>Egg Paratha</span><strong>₹100</strong></li>
+
+                <li><span>Plain Paratha</span><strong>₹40</strong></li>
+
+                <li><span>Missi Roti</span><strong>₹25</strong></li>
+
+                <li><span>Methi Paratha</span><strong>₹60</strong></li>
+
+                <li><span>Malabar Paratha</span><strong>₹60</strong></li>
+
+            </ul>
+
+        </div>
+
+
+        <!--=========================
+            BOX 3 : VEG STARTERS
+        ==========================-->
+
+        <div class="menu-box">
+
+            <h3>🔥 Veg Starters</h3>
+
+            <ul>
+
+                <li><span>Malai Chaap</span><strong>₹170</strong></li>
+
+                <li><span>Masala Chaap</span><strong>₹150</strong></li>
+
+                <li><span>Masala Malai Chaap</span><strong>₹190</strong></li>
+
+                <li><span>Afgani Chaap</span><strong>₹190</strong></li>
+
+                <li><span>Garlic Chaap</span><strong>₹180</strong></li>
+
+                <li><span>Achaari Chaap</span><strong>₹180</strong></li>
+
+                <li><span>Mushroom Tikka</span><strong>₹190</strong></li>
+
+                <li><span>Achaari Mushroom</span><strong>₹200</strong></li>
+
+                <li><span>Malai Mushroom Tikka</span><strong>₹210</strong></li>
+
+                <li><span>Paneer Tikka</span><strong>₹190</strong></li>
+
+                <li><span>Paneer Malai Tikka</span><strong>₹210</strong></li>
+
+            </ul>
+
+        </div>
+
+
+        <!--=========================
+        BOX 4 : PANEER SPECIAL
+        ==========================-->
+
+    <div class="menu-box">
+
+    <h3>🧀 Paneer Special</h3>
+
+    <ul>
+
+        <li><span>Kadhai Paneer</span><strong>₹130 / ₹230</strong></li>
+
+        <li><span>Shahi Paneer</span><strong>₹150 / ₹250</strong></li>
+
+        <li><span>Paneer Do Pyaza</span><strong>₹130 / ₹210</strong></li>
+
+        <li><span>Paneer Butter Masala</span><strong>₹150 / ₹250</strong></li>
+
+        <li><span>Mattar Paneer</span><strong>₹130 / ₹210</strong></li>
+
+        <li><span>Paneer Labbabdar</span><strong>₹150 / ₹250</strong></li>
+
+        <li><span>Palak Paneer</span><strong>₹170 / ₹260</strong></li>
+
+        <li><span>Paneer Bhurji (300ml)</span><strong>₹250</strong></li>
+
+    </ul>
+
+</div>
+
+
+
+<!--=========================
+        BOX 5 : DAL & VEG CURRY
+==========================-->
+
+<div class="menu-box">
+
+    <h3>🍛 Dal & Veg Curry</h3>
+
+    <ul>
+
+        <li><span>Dal Fry</span><strong>₹80 / ₹140</strong></li>
+
+        <li><span>Dal Tadka</span><strong>₹90 / ₹150</strong></li>
+
+        <li><span>Dal Makhani</span><strong>₹130 / ₹230</strong></li>
+
+        <li><span>White Chhole</span><strong>₹140 / ₹210</strong></li>
+
+        <li><span>Rajma</span><strong>₹140 / ₹210</strong></li>
+
+        <li><span>Mix Veg</span><strong>₹140 / ₹210</strong></li>
+
+        <li><span>Malai Kofta</span><strong>₹150 / ₹250</strong></li>
+
+        <li><span>Soya Chaap Masala</span><strong>₹130 / ₹210</strong></li>
+
+        <li><span>Kadhai Soya Chaap</span><strong>₹150 / ₹250</strong></li>
+
+        <li><span>Mushroom Do Pyaza</span><strong>₹150 / ₹250</strong></li>
+
+        <li><span>Mushroom Butter Masala</span><strong>₹150 / ₹250</strong></li>
+
+    </ul>
+
+</div>
+
+
+<!--=========================
+        BOX 6 : RICE & THALI
+==========================-->
+
+<div class="menu-box">
+
+    <h3>🍚 Rice, Thali & More</h3>
+
+    <ul>
+
+        <li><span>Aloo Jeera</span><strong>₹100 / ₹170</strong></li>
+
+        <li><span>Aloo Gobhi</span><strong>₹110 / ₹190</strong></li>
+
+        <li><span>Kashmiri Dum Aloo</span><strong>₹140 / ₹210</strong></li>
+
+        <li><span>Palak Corn</span><strong>₹170 / ₹267</strong></li>
+
+        <li><span>Soya Bhurji (300ml)</span><strong>₹250</strong></li>
+
+        <li><span>Yellow Dal Dhaba Style</span><strong>₹80 / ₹150</strong></li>
+
+        <li><span>Kadi Pakoda</span><strong>₹140 / ₹240</strong></li>
+
+        <li><span>Boodi Rayta</span><strong>₹60</strong></li>
+
+        <li><span>Masala Chhach</span><strong>₹80</strong></li>
+
+        <li><span>Indian Veg Thali</span><strong>₹220</strong></li>
+
+        <li><span>Veg Biryani</span><strong>₹260</strong></li>
+
+    </ul>
+
+</div>
+
+</section>
+
+
+
+<!--=====================================
+            CHINESE MENU
+======================================-->
+
+<div class="menu-content" id="chinese">
+
+    <div class="left-menu">
+
+        <!--================ BOX 1 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥟 Steam Momos</h3>
+
+            <ul>
+
+                <li><span>Veg Steam Momos</span><strong>₹100</strong></li>
+
+                <li><span>Paneer Steam Momos</span><strong>₹110</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 2 =================-->
+
+        <div class="menu-box">
+
+            <h3>🔥 Fried & Kurkure Momos</h3>
+
+            <ul>
+
+                <li><span>Veg Fried Momos</span><strong>₹110</strong></li>
+
+                <li><span>Paneer Fried Momos</span><strong>₹120</strong></li>
+
+                <li><span>Veg Kurkure Momos</span><strong>₹120</strong></li>
+
+                <li><span>Paneer Kurkure Momos</span><strong>₹130</strong></li>
+
+                <li><span>Veg Chilli Gravy Momos</span><strong>₹130</strong></li>
+
+                <li><span>Paneer Chilli Gravy Momos</span><strong>₹140</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 3 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍜 Noodles</h3>
+
+            <ul>
+
+                <li><span>Veg Noodles</span><strong>₹110</strong></li>
+
+                <li><span>Paneer Noodles</span><strong>₹140</strong></li>
+
+                <li><span>Hakka Noodles</span><strong>₹160</strong></li>
+
+                <li><span>Singapuri Noodles</span><strong>₹180</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 4 =================-->
+
+        <div class="menu-box">
+
+            <h3>🌯 Rolls & Fries</h3>
+
+            <ul>
+
+                <li><span>Veg Frankie Roll</span><strong>₹90</strong></li>
+
+                <li><span>Paneer Frankie Roll</span><strong>₹110</strong></li>
+
+                <li><span>Veg Spring Roll</span><strong>₹100</strong></li>
+
+                <li><span>French Fries</span><strong>₹120</strong></li>
+
+                <li><span>Chilli Potato</span><strong>₹140</strong></li>
+
+                <li><span>Honey Chilli Potato</span><strong>₹150</strong></li>
+
+                <li><span>Crispy Chaap Kurkure</span><strong>₹180</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 5 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍚 Chinese Special</h3>
+
+            <ul>
+
+                <li><span>Veg Fried Rice</span><strong>₹150</strong></li>
+
+                <li><span>Paneer Fried Rice</span><strong>₹170</strong></li>
+
+                <li><span>Veg Manchurian</span><strong>₹180</strong></li>
+
+                <li><span>Paneer Manchurian</span><strong>₹200</strong></li>
+
+                <li><span>Chilli Paneer</span><strong>₹210</strong></li>
+
+                <li><span>White Sauce Pasta</span><strong>₹200</strong></li>
+
+                <li><span>Red Sauce Pasta</span><strong>₹200</strong></li>
+
+                <li><span>Mix Sauce Pasta</span><strong>₹220</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 6 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥣 Soup • Combo • Thali</h3>
+
+            <ul>
+
+                <li><span>Manchow Soup</span><strong>₹160</strong></li>
+
+                <li><span>Cream of Tomato Soup</span><strong>₹130</strong></li>
+
+                <li><span>Sweet Corn Soup</span><strong>₹130</strong></li>
+
+                <li><span>Hot & Sour Soup</span><strong>₹140</strong></li>
+
+                <li><span>Manchurian with Fried Rice</span><strong>₹250</strong></li>
+
+                <li><span>Manchurian with Noodles</span><strong>₹250</strong></li>
+
+                <li><span>Chinese Thali</span><strong>₹270</strong></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+<div id="nonveg" class="menu-content">
+
+    <div class="left-menu">
+
+        <!--================ BOX 1 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍗 Tandoori Chicken</h3>
+
+            <ul>
+
+                <li><span>Half Tandoori Chicken</span><strong>₹250</strong></li>
+
+                <li><span>Full Tandoori Chicken</span><strong>₹450</strong></li>
+
+                <li><span>Chicken Tikka</span><strong>₹250</strong></li>
+
+                <li><span>Malai Chicken Tikka</span><strong>₹270</strong></li>
+
+                <li><span>Afghani Chicken</span><strong>₹290</strong></li>
+
+                <li><span>Chicken Seekh Kebab</span><strong>₹220</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 2 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍛 Chicken Curry</h3>
+
+            <ul>
+
+                <li><span>Butter Chicken</span><strong>₹260 / ₹420</strong></li>
+
+                <li><span>Kadhai Chicken</span><strong>₹250 / ₹400</strong></li>
+
+                <li><span>Chicken Curry</span><strong>₹240 / ₹390</strong></li>
+
+                <li><span>Chicken Masala</span><strong>₹260 / ₹420</strong></li>
+
+                <li><span>Chicken Do Pyaza</span><strong>₹250 / ₹400</strong></li>
+
+                <li><span>Chicken Lababdar</span><strong>₹270 / ₹430</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 3 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥘 Egg Special</h3>
+
+            <ul>
+
+                <li><span>Egg Curry</span><strong>₹180</strong></li>
+
+                <li><span>Egg Masala</span><strong>₹200</strong></li>
+
+                <li><span>Egg Bhurji</span><strong>₹180</strong></li>
+
+                <li><span>Boiled Egg</span><strong>₹20</strong></li>
+
+                <li><span>Egg Omelette</span><strong>₹60</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 4 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍚 Biryani</h3>
+
+            <ul>
+
+                <li><span>Chicken Biryani</span><strong>₹260</strong></li>
+
+                <li><span>Hyderabadi Chicken Biryani</span><strong>₹290</strong></li>
+
+                <li><span>Egg Biryani</span><strong>₹220</strong></li>
+
+                <li><span>Chicken Fried Rice</span><strong>₹220</strong></li>
+
+                <li><span>Egg Fried Rice</span><strong>₹180</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 5 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍜 Chinese Non-Veg</h3>
+
+            <ul>
+
+                <li><span>Chicken Noodles</span><strong>₹220</strong></li>
+
+                <li><span>Chicken Manchurian</span><strong>₹250</strong></li>
+
+                <li><span>Chicken Chilli</span><strong>₹260</strong></li>
+
+                <li><span>Chicken Momos</span><strong>₹160</strong></li>
+
+                <li><span>Chicken Fried Momos</span><strong>₹180</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 6 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥘 Non-Veg Combo</h3>
+
+            <ul>
+
+                <li><span>Chicken Thali</span><strong>₹320</strong></li>
+
+                <li><span>Butter Chicken Combo</span><strong>₹350</strong></li>
+
+                <li><span>Chicken Meal Box</span><strong>₹299</strong></li>
+
+                <li><span>Family Chicken Combo</span><strong>₹799</strong></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+    
+
+
+<!--=====================================
+            COMBO MENU
+======================================-->
+
+<div id="combo" class="menu-content">
+
+    <div class="left-menu">
+
+        <!--================ BOX 1 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍛 Lunch Combos</h3>
+
+            <ul>
+
+                <li><span>Rajma Rice Combo</span><strong>₹199</strong></li>
+
+                <li><span>Chole Rice Combo</span><strong>₹199</strong></li>
+
+                <li><span>Dal Rice Combo</span><strong>₹189</strong></li>
+
+                <li><span>Kadhi Rice Combo</span><strong>₹199</strong></li>
+
+                <li><span>Paneer Rice Combo</span><strong>₹249</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 2 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍱 Family Combos</h3>
+
+            <ul>
+
+                <li><span>Family Veg Combo</span><strong>₹699</strong></li>
+
+                <li><span>Family Paneer Combo</span><strong>₹799</strong></li>
+
+                <li><span>Family Non-Veg Combo</span><strong>₹999</strong></li>
+
+                <li><span>Weekend Special Combo</span><strong>₹899</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 3 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥘 Executive Meals</h3>
+
+            <ul>
+
+                <li><span>Mini Veg Meal</span><strong>₹179</strong></li>
+
+                <li><span>Deluxe Veg Meal</span><strong>₹249</strong></li>
+
+                <li><span>Mini Chicken Meal</span><strong>₹269</strong></li>
+
+                <li><span>Deluxe Chicken Meal</span><strong>₹349</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 4 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥙 Fast Food Combos</h3>
+
+            <ul>
+
+                <li><span>Burger + Fries</span><strong>₹249</strong></li>
+
+                <li><span>Burger + Coke</span><strong>₹269</strong></li>
+
+                <li><span>Pizza Combo</span><strong>₹399</strong></li>
+
+                <li><span>Pasta Combo</span><strong>₹349</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 5 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍜 Chinese Combos</h3>
+
+            <ul>
+
+                <li><span>Noodles + Manchurian</span><strong>₹249</strong></li>
+
+                <li><span>Fried Rice + Chilli Paneer</span><strong>₹299</strong></li>
+
+                <li><span>Momos + Fries</span><strong>₹229</strong></li>
+
+                <li><span>Chinese Meal Combo</span><strong>₹329</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 6 =================-->
+
+        <div class="menu-box">
+
+            <h3>💪 Healthy Combos</h3>
+
+            <ul>
+
+                <li><span>Protein Meal Combo</span><strong>₹299</strong></li>
+
+                <li><span>Weight Loss Meal</span><strong>₹279</strong></li>
+
+                <li><span>High Protein Bowl</span><strong>₹329</strong></li>
+
+                <li><span>Gym Diet Combo</span><strong>₹349</strong></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!--=====================================
+            THALI MENU
+======================================-->
+
+<div id="thali" class="menu-content">
+
+    <div class="left-menu">
+
+        <!--================ BOX 1 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍛 Mini Veg Thali</h3>
+
+            <ul>
+
+                <li><span>2 Roti</span><strong></strong></li>
+
+                <li><span>Seasonal Vegetable</span><strong></strong></li>
+
+                <li><span>Dal Fry</span><strong></strong></li>
+
+                <li><span>Rice</span><strong></strong></li>
+
+                <li><span>Pickle & Salad</span><strong>₹179</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 2 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥘 Deluxe Veg Thali</h3>
+
+            <ul>
+
+                <li><span>3 Roti / Butter Naan</span><strong></strong></li>
+
+                <li><span>Paneer Dish</span><strong></strong></li>
+
+                <li><span>Dal Makhani</span><strong></strong></li>
+
+                <li><span>Jeera Rice</span><strong></strong></li>
+
+                <li><span>Raita, Salad & Sweet</span><strong>₹249</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 3 =================-->
+
+        <div class="menu-box">
+
+            <h3>👑 Premium Thali</h3>
+
+            <ul>
+
+                <li><span>Butter Naan</span><strong></strong></li>
+
+                <li><span>Shahi Paneer</span><strong></strong></li>
+
+                <li><span>Dal Makhani</span><strong></strong></li>
+
+                <li><span>Mix Veg</span><strong></strong></li>
+
+                <li><span>Rice, Sweet & Raita</span><strong>₹329</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 4 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍗 Chicken Thali</h3>
+
+            <ul>
+
+                <li><span>2 Butter Naan</span><strong></strong></li>
+
+                <li><span>Butter Chicken</span><strong></strong></li>
+
+                <li><span>Jeera Rice</span><strong></strong></li>
+
+                <li><span>Salad & Sweet</span><strong>₹349</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 5 =================-->
+
+        <div class="menu-box">
+
+            <h3>🏢 Office Lunch Thali</h3>
+
+            <ul>
+
+                <li><span>2 Chapati</span><strong></strong></li>
+
+                <li><span>Seasonal Sabzi</span><strong></strong></li>
+
+                <li><span>Dal</span><strong></strong></li>
+
+                <li><span>Rice</span><strong></strong></li>
+
+                <li><span>Salad</span><strong>₹199</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 6 =================-->
+
+        <div class="menu-box">
+
+            <h3>🌱 Jain Thali</h3>
+
+            <ul>
+
+                <li><span>2 Chapati</span><strong></strong></li>
+
+                <li><span>Jain Vegetable</span><strong></strong></li>
+
+                <li><span>Dal</span><strong></strong></li>
+
+                <li><span>Rice</span><strong></strong></li>
+
+                <li><span>Salad & Pickle</span><strong>₹229</strong></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<!--=====================================
+            SOUP MENU
+======================================-->
+
+<div id="soup" class="menu-content">
+
+    <div class="left-menu">
+
+        <!--================ BOX 1 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍅 Veg Soups</h3>
+
+            <ul>
+
+                <li><span>Cream of Tomato Soup</span><strong>₹130</strong></li>
+
+                <li><span>Sweet Corn Veg Soup</span><strong>₹130</strong></li>
+
+                <li><span>Hot & Sour Soup</span><strong>₹140</strong></li>
+
+                <li><span>Veg Manchow Soup</span><strong>₹160</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 2 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍄 Cream Soups</h3>
+
+            <ul>
+
+                <li><span>Cream of Mushroom Soup</span><strong>₹170</strong></li>
+
+                <li><span>Cream of Broccoli Soup</span><strong>₹180</strong></li>
+
+                <li><span>Cheese Corn Soup</span><strong>₹180</strong></li>
+
+                <li><span>Cream of Spinach Soup</span><strong>₹170</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 3 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥬 Healthy Soups</h3>
+
+            <ul>
+
+                <li><span>Mixed Vegetable Soup</span><strong>₹160</strong></li>
+
+                <li><span>Spinach Soup</span><strong>₹170</strong></li>
+
+                <li><span>Lemon Coriander Soup</span><strong>₹170</strong></li>
+
+                <li><span>Detox Vegetable Soup</span><strong>₹190</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 4 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍗 Chicken Soups</h3>
+
+            <ul>
+
+                <li><span>Chicken Sweet Corn Soup</span><strong>₹190</strong></li>
+
+                <li><span>Chicken Hot & Sour Soup</span><strong>₹200</strong></li>
+
+                <li><span>Chicken Manchow Soup</span><strong>₹210</strong></li>
+
+                <li><span>Chicken Clear Soup</span><strong>₹180</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 5 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥟 Soup Combos</h3>
+
+            <ul>
+
+                <li><span>Soup + Momos</span><strong>₹260</strong></li>
+
+                <li><span>Soup + Spring Roll</span><strong>₹280</strong></li>
+
+                <li><span>Soup + Garlic Bread</span><strong>₹250</strong></li>
+
+                <li><span>Soup + Fries</span><strong>₹240</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 6 =================-->
+
+        <div class="menu-box">
+
+            <h3>⭐ Chef's Special</h3>
+
+            <ul>
+
+                <li><span>Special Veg Soup</span><strong>₹190</strong></li>
+
+                <li><span>Special Chicken Soup</span><strong>₹220</strong></li>
+
+                <li><span>Winter Special Soup</span><strong>₹210</strong></li>
+
+                <li><span>Healthy Protein Soup</span><strong>₹230</strong></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--=====================================
+            GYM DIET MENU
+======================================-->
+
+<div id="gym" class="menu-content">
+
+    <div class="left-menu">
+
+        <!--================ BOX 1 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥗 Weight Loss Meals</h3>
+
+            <ul>
+
+                <li><span>Grilled Paneer Salad</span><strong>₹249</strong></li>
+
+                <li><span>Veg Protein Bowl</span><strong>₹269</strong></li>
+
+                <li><span>Quinoa Veg Bowl</span><strong>₹299</strong></li>
+
+                <li><span>Brown Rice & Veggies</span><strong>₹239</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 2 =================-->
+
+        <div class="menu-box">
+
+            <h3>💪 High Protein Meals</h3>
+
+            <ul>
+
+                <li><span>Grilled Chicken Breast</span><strong>₹349</strong></li>
+
+                <li><span>Chicken Protein Bowl</span><strong>₹379</strong></li>
+
+                <li><span>Paneer Protein Bowl</span><strong>₹299</strong></li>
+
+                <li><span>Egg & Rice Bowl</span><strong>₹259</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 3 =================-->
+
+        <div class="menu-box">
+
+            <h3>🍳 Healthy Breakfast</h3>
+
+            <ul>
+
+                <li><span>Overnight Oats</span><strong>₹180</strong></li>
+
+                <li><span>Greek Yogurt Bowl</span><strong>₹199</strong></li>
+
+                <li><span>Oats Upma</span><strong>₹169</strong></li>
+
+                <li><span>Egg White Omelette</span><strong>₹179</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 4 =================-->
+
+        <div class="menu-box">
+
+            <h3>🥤 Healthy Drinks</h3>
+
+            <ul>
+
+                <li><span>Protein Shake</span><strong>₹220</strong></li>
+
+                <li><span>Banana Peanut Smoothie</span><strong>₹199</strong></li>
+
+                <li><span>Green Detox Juice</span><strong>₹179</strong></li>
+
+                <li><span>Fresh Coconut Water</span><strong>₹80</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 5 =================-->
+
+        <div class="menu-box">
+
+            <h3>📅 Weekly Diet Plans</h3>
+
+            <ul>
+
+                <li><span>7-Day Weight Loss Plan</span><strong>₹1,499</strong></li>
+
+                <li><span>7-Day Muscle Gain Plan</span><strong>₹1,799</strong></li>
+
+                <li><span>Monthly Diet Subscription</span><strong>₹5,499</strong></li>
+
+                <li><span>Custom Meal Plan</span><strong>₹6,499</strong></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--================ BOX 6 =================-->
+
+        <div class="menu-box">
+
+            <h3>⭐ Chef's Healthy Specials</h3>
+
+            <ul>
+
+                <li><span>High Protein Thali</span><strong>₹349</strong></li>
+
+                <li><span>Chicken & Brown Rice</span><strong>₹379</strong></li>
+
+                <li><span>Paneer & Quinoa Bowl</span><strong>₹329</strong></li>
+
+                <li><span>Fitness Combo Meal</span><strong>₹449</strong></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+<!--=========================================
+        TIFFIN & CATERING SERVICES
+==========================================-->
+
+<section class="tiffin-service" id="services">
+
+    <div class="section-title">
+
+        <h2>Tiffin & Catering Services</h2>
+
+        <p>
+            Fresh, hygienic and delicious meals delivered to your doorstep and
+            premium catering services for every occasion.
+        </p>
+
+    </div>
+
+    <div class="tiffin-container">
+
+        <!--================ LEFT SIDE =================-->
+
+        <div class="service-left">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <i class="fa-solid fa-box"></i>
+
+                </div>
+
+                <div class="service-content">
+
+                    <h3>Daily Tiffin Service</h3>
+
+                    <p>
+                        Fresh homemade breakfast, lunch &
+                        dinner delivered daily.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <i class="fa-solid fa-cake-candles"></i>
+
+                </div>
+
+                <div class="service-content">
+
+                    <h3>Party Catering</h3>
+
+                    <p>
+                        Birthday parties, kitty parties,
+                        anniversaries & family functions.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <i class="fa-solid fa-briefcase"></i>
+
+                </div>
+
+                <div class="service-content">
+
+                    <h3>Corporate Orders</h3>
+
+                    <p>
+                        Bulk lunch, office meetings and
+                        employee meal services.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <i class="fa-solid fa-truck-fast"></i>
+
+                </div>
+
+                <div class="service-content">
+
+                    <h3>Bulk Food Delivery</h3>
+
+                    <p>
+                        Fast delivery for schools,
+                        colleges, hostels and events.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--================ RIGHT SIDE =================-->
+
+        <div class="service-right">
+
+            <div class="catering-content">
+
+                <span class="offer-tag">
+
+                    ⭐ Premium Catering
+
+                </span>
+
+                <h2>
+
+                    We Cater To <br>
+
+                    All Your Needs!
+
+                </h2>
+
+                <p>
+
+                    Get customized menus for every occasion.
+
+                </p>
+
+                
+
+                <a href="#" class="catering-btn">
+
+                    Book Catering
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+            <div class="catering-image">
+
+                <img src="./assets/catering.jpg" alt="Catering Service">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!--=========================================
+            FOOTER
+==========================================-->
+
+<footer>
+
+    <!--================ CTA SECTION ================-->
+
+    <section class="footer-cta" id="contact">
+
+        <div class="cta-left">
+
+            <h2>Craving Something Delicious?</h2>
+
+            <p>
+                Order your favourite food online in just a few clicks!
+            </p>
+
+        </div>
+
+
+        <div class="cta-center">
+
+            <a href="#" class="cta-btn">
+
+                Order Online Now
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+            <div class="cta-feature">
+
+                <span>
+
+                    🍽️ Zomato
+                    
+
+                </span>
+
+                <span>
+
+                    🍴 Swiggy
+
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="cta-right">
+
+            <img src="./assets/QR.svg" alt="Food Ordering App">
+
+        </div>
+
+    </section>
+
+
+
+    <!--================ MAIN FOOTER ================-->
+
+    <section class="main-footer">
+
+        <!--========= COLUMN 1 =========-->
+
+        <div class="footer-box">
+
+            <div class="footer-logo">
+
+                <img src="./assets/logo.jpg" alt="Logo">
+
+                <div>
+
+                    <h2>CHATPATA</h2>
+
+                    <h2>CHULHA</h2>
+
+                </div>
+
+            </div>
+
+            <p>
+
+                Delicious food for every mood.
+                <br>
+                Made with love, served with care.
+
+            </p>
+
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/share/19DYJCjDoQ/"><i class="fa-brands fa-facebook-f"></i></a>
+
+                <a href="https://www.instagram.com/chatpata_chulha1"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+
+        </div>
+
+
+
+        <!--========= COLUMN 2 =========-->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">Menu</a></li>
+
+                <li><a href="#">Offers</a></li>
+
+                <li><a href="#">Diet Menu</a></li>
+
+                <li><a href="#">Catering</a></li>
+
+                <li><a href="#">About Us</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--========= COLUMN 3 =========-->
+
+        <div class="footer-box">
+
+            <h3>Contact Us</h3>
+
+            <p>
+
+                <i class="fa-solid fa-phone"></i>
+
+                9499249020
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-phone"></i>
+
+                7011274660
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                chatpatachulha2024@gmail.com
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                Chungi No. 01,
+                Sohna,
+                Gurugram-122103
+
+            </p>
+
+        </div>
+
+
+
+        <!--========= COLUMN 4 =========-->
+
+        <div class="footer-box">
+
+            <h3>Opening Hours</h3>
+
+            <p>Monday to Sunday</p>
+
+            <p>10:00 AM – 11:00 PM</p>
+
+            <div class="delivery-box">
+
+                <h4>Minimum Delivery ₹350</h4>
+
+                <p>Up to 3 Km</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   
+
+</div>
+
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
