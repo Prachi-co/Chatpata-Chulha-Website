@@ -482,7 +482,7 @@ nav{
 
 .home-tag{
     margin-top: 140px;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 
@@ -1676,6 +1676,13 @@ nav{
 
 }
 
+.section-title p{
+
+    font-size:12px;
+    width: 100%;
+
+}
+
 .service-card{
 
     flex-direction:column;
@@ -1696,27 +1703,27 @@ nav{
 }
 
 .service-content h3{
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .service-content p{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
 }
 
 .service-right h2{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26px;
 }
 
 .service-right p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
 }
 
 .catering-content a{
     height: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 }
@@ -1945,6 +1952,11 @@ footer{
 
 }
 
+
+
+
+
+
 /*=========================================
             SOCIAL
 =========================================*/
@@ -2074,28 +2086,6 @@ footer{
 }
 
 /*=========================================
-            COPYRIGHT
-=========================================*/
-
-.copyright{
-
-    background:#FFF8F2;
-
-    text-align:center;
-
-    padding:20px;
-
-    border-top:1px solid #ddd;
-
-}
-
-.copyright p{
-
-    color:#555;
-
-}
-
-/*=========================================
             RESPONSIVE
 =========================================*/
 
@@ -2126,19 +2116,19 @@ footer{
 
     flex-direction:column;
 
-    gap:18px;
+    gap:1px;
 
 }
 
 .cta-left h2{
 
-    font-size:20px;
+    font-size:18px;
 
 }
 
 .cta-left p{
 
-    font-size:14px;
+    font-size:12px;
     line-height: 18px;
 
 }
@@ -2316,8 +2306,16 @@ footer{
 
 /*------------Footer----------*/
 .footer{
-    font-size: 13px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     color: #777;
+}
+
+@media(max-width:488px){
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
