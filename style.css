@@ -2315,3 +2315,12 @@ footer{
         height: 160px;
     }
 }
+
+
+/*------------Footer----------*/
+.footer{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #777;
+}
