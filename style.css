@@ -168,39 +168,7 @@ nav{
 
 }
 
-/*=========================================
-            ORDER BUTTON
-=========================================*/
 
-.order-btn{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:10px;
-
-    padding:14px 22px;
-
-    background:#FFB000;
-
-    color:#2C1B10;
-
-    border-radius:12px;
-
-    font-weight:600;
-
-    transition:.3s;
-
-}
-
-.order-btn:hover{
-
-    background:#FFA000;
-
-    transform:translateY(-3px);
-
-}
 
 /*=========================================
             RESPONSIVE
@@ -225,33 +193,35 @@ nav{
 
 .logo{
 
-    width:100%;
-
-    justify-content:center;
+    width:20%;
+    margin-left: -290px;
 
 }
 
 .logo img{
 
-    width:60px;
+    width: 35px;
+    height: 35px;
 
 }
 
 .logo-text h2{
 
-    font-size:18px;
+    font-size:14px;
+    margin-top: 10px;
 
 }
 
 .logo-text p{
 
-    font-size:12px;
+    font-size:8px;
 
 }
 
 .navbar{
 
-    width:100%;
+    width:80%;
+    margin-left: -80px;
 
     display:flex;
 
@@ -269,11 +239,6 @@ nav{
 
 }
 
-.order-btn{
-    padding:12px 25px;
-    font-size:15px;
-    width: 10px;
-}
 
 }
 
@@ -2333,4 +2298,20 @@ footer{
 
     }
 
+}
+
+/*------------Map------------*/
+.footer-box iframe{
+    width:100%;
+    height:160px;
+    border:none;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+@media(max-width:488px){
+    .footer-box iframe{
+        width: 220px;
+        height: 160px;
+    }
 }
